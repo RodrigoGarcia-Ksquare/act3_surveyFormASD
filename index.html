@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>act3_surveyForm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dog Pet Survey</h1>
+    </header>
+
+    <form>
+
+        <div class="form-details">
+            <label for="input-name"> Name </label>
+            <input type="text" name="name" id="input-name" placeholder="Type your name" />
+        </div>
+
+        <div class="form-details">
+            <label for="input-email"> Email </label>
+            <input type="email" name="email" id="input-email" placeholder="Type your email" />
+        </div>
+
+        <div class="form-details">
+            <label for="input-age"> Age </label>
+            <input type="number" name="number" id="input-age" placeholder="Type your age (Only numbers)" />
+        </div>
+
+        <div class="form-details">
+            <p> Do you like dogs? </p>
+
+            <label for="input-radio1">
+                <input type="radio" name="radio" id="input-radio1">Yes</input>
+            </label>
+            <label for="input-radio2">
+                <input type="radio" name="radio" id="input-radio2">No</input>
+            </label>
+        </div>
+
+        <div class="form-details">
+            <label for="select-dropdown"> How many dogs do you have? </label>
+            <select name="select" id="select-dropdown">
+                <option value="none">None</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5OrMore">5 or more</option>
+            </select>
+        </div>
+
+        <div class="form-details">
+            <label for="textarea-comment"> Comments or suggestions </label>
+            <textarea name="comment" id="textarea-comment" cols="30" rows="10"
+                placeholder="Type your comment here"></textarea>
+        </div>
+
+        <div class="form-details">
+            <label for="input-checkbox1">
+                <input type="checkbox" name="checkbox1" id="input-checkbox1"> I want to take another survey
+                later</input>
+            </label>
+        </div>
+
+    </form>
+</body>
+
+<footer>
+    <div>
+        <h2> Tomás García López - Instituto Tecnológico Ksquare</h2>
+    </div>
+</footer>
+
+</html>

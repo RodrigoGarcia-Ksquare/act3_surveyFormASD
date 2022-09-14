@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://images5.alphacoders.com/394/394631.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana;
+    text-align: center;
+}
+
+header{
+    font-size: xx-large;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+form
+{
+    background-color: lightgrey;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-details {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.form-details label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-details input,
+.form-details select,
+.form-details textarea {
+    border: 1px solid white;
+    font-family: inherit;
+    padding: 10px;
+    width: 95%;
+}
+
+.form-details input[type="radio"],
+.form-details input[type="checkbox"] {
+    display: inline-block;
+    width: 5%;
+}
+
+footer{
+    color: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
